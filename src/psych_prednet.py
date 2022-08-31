@@ -57,9 +57,7 @@ def RtPsychCrossEntropyLoss(outputs, targets, psych):
     
 #     targets = np.asarray([id2label[i] for i in targets])
 #     targets = torch.as_tensor(targets)
-#     print('here', new_fucks)
-#     targets = np.asarray(new_fucks)
-    
+
     # converting reaction time to penalty
     # 10002 is close to the max penalty time seen in the data
     for idx in range(len(psych)):   

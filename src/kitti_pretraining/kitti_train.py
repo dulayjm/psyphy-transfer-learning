@@ -64,8 +64,8 @@ def lr_scheduler(optimizer, epoch):
         for param_group in optimizer.param_groups:
             param_group['lr'] = 0.0001
         return optimizer
-1/0
-# load test ewights 
+
+# load test weights
 
 # test script stuff
 for i, inputs in enumerate(val_loader):
