@@ -16,6 +16,7 @@ more-itertools = "^8.6.0"
 scipy = "^1.5.4"
 syntaxgym = "^0.5.5"
 matplotlib = "^3.4.2"
+editdistance = "^1"
 
 [tool.poetry.dev-dependencies]
 
